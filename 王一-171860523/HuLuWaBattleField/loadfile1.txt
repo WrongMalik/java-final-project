@@ -1,0 +1,161 @@
+15,0 move 10,3
+16,0 move 13,2
+17,0 move 15,3
+18,1 move 16,4
+19,2 move 17,5
+19,3 move 18,7
+19,4 move 19,9
+1,18 move 6,16
+1,17 move 2,13
+2,18 move 3,14
+0,19 move 5,19
+10,3 move 6,7
+13,2 move 10,4
+15,3 skill=
+15,3 move 9,6
+6,7 skill=
+16,4 move 13,6
+17,5 move 14,7
+18,7 move 15,9
+19,9 move 16,11
+3,14 move 6,12
+2,13 move 5,11
+6,16 move 9,12
+5,19 move 9,18
+6,7 move 5,12
+5,12 attack 6,12 damage 1000=
+9,6 attack 9,18 damage 300=
+9,6 move 3,9
+10,4 move 10,9
+10,9 skill=10,9 attack 9,12 damage 1500=
+13,6 move 12,10
+14,7 move 13,11
+13,11 skill=
+15,9 move 13,6
+16,11 move 11,11
+11,11 skill=9,12 silence=
+5,11 move 3,10
+6,12 move 4,9
+4,9 attack 3,9 damage 300=
+4,9 skill=4,9 attack 3,9 damage 600=
+3,10 skill=3,10 attack 3,9 damage 600=3,9 dead=
+9,18 move 10,14
+5,12 move 4,10
+4,10 attack 3,10 damage 1000=
+10,9 move 5,9
+5,9 attack 4,9 damage 600=
+11,11 move 9,8
+12,10 move 9,10
+13,11 move 10,12
+10,12 attack 9,12 damage 700=
+13,6 move 10,4
+9,12 move 9,6
+9,6 attack 10,4 damage 700=
+9,6 skill=9,6 control 9,8=
+9,8 move 9,12
+9,12 attack 10,12 damage 0=
+10,14 move 10,10
+10,10 skill=10,10 attack 9,10 damage 1800=
+9,10 skill=
+9,10 attack 10,10 damage 1000=
+9,12 attack 10,10 damage 450=
+10,12 move 10,11
+10,11 attack 10,10 damage 400=
+10,4 move 15,4
+15,4 skill=15,4 addHP 400=9,10 addHP 500=10,11 addHP 700=5,9 addHP 300=4,10 addHP 260=9,12 addHP 360=
+4,10 attack 3,10 damage 1000=
+5,9 attack 3,10 damage 600=
+3,10 attack 4,10 damage 300=
+3,10 move 8,10
+4,9 attack 4,10 damage 300=
+10,10 attack 9,10 damage 800=
+9,6 move 15,5
+15,5 attack 15,4 damage 700=
+15,4 move 10,4
+9,10 attack 8,10 damage 1000=8,10 dead=
+10,11 skill=
+10,11 attack 10,10 damage 700=
+9,10 move 5,10
+4,10 attack 4,9 damage 1000=
+4,10 skill=
+4,10 move 11,10
+5,9 attack 4,9 damage 600=4,9 dead=
+5,9 move 9,10
+9,12 attack 10,10 damage 450=
+9,12 move 12,11
+15,5 move 10,5
+10,5 attack 10,4 damage 700=
+10,10 attack 9,10 damage 800=
+10,4 attack 10,5 damage 200=
+11,10 attack 10,10 damage 1000=
+10,11 attack 10,10 damage 700=
+9,10 skill=9,10 attack 10,10 damage 1500=
+12,11 move 11,7
+11,7 attack 10,5 damage 450=
+5,10 move 8,8
+10,5 attack 10,4 damage 700=10,4 dead=
+10,5 move 14,8
+9,10 attack 10,10 damage 600=
+11,10 attack 10,10 damage 1000=
+8,8 move 10,9
+10,9 skill=
+10,9 attack 10,10 damage 1000=
+11,7 move 13,8
+13,8 skill=14,8 silence=
+13,8 attack 14,8 damage 450=
+10,10 skill=10,10 attack 10,11 damage 1800=
+10,10 attack 10,11 damage 800=
+10,10 move 12,7
+13,8 attack 14,8 damage 450=
+13,8 move 13,13
+11,10 skill=
+11,10 move 15,6
+10,9 move 14,9
+14,9 attack 14,8 damage 1000=
+10,11 move 12,8
+12,8 attack 12,7 damage 400=
+9,10 move 11,10
+11,10 attack 14,8 damage 600=
+14,8 attack 14,9 damage 700=14,9 dead=
+14,8 skill=14,8 control 12,8=
+12,8 move 11,11
+11,11 attack 11,10 damage 400=
+12,7 move 12,10
+12,10 attack 11,10 damage 800=11,10 dead=
+11,11 skill=
+11,11 move 12,11
+12,11 attack 12,10 damage 700=
+13,13 move 13,10
+13,10 attack 12,10 damage 450=
+15,6 move 11,10
+11,10 attack 12,10 damage 1000=
+14,8 attack 13,10 damage 700=
+12,10 attack 13,10 damage 800=
+12,10 move 15,12
+13,10 move 15,13
+15,13 attack 15,12 damage 450=
+12,11 move 14,12
+14,12 attack 15,12 damage 700=
+11,10 move 16,12
+16,12 attack 15,12 damage 1000=
+15,12 attack 15,13 damage 800=15,13 dead=
+15,12 move 15,17
+14,8 move 14,11
+14,11 attack 14,12 damage 0=
+16,12 move 15,18
+15,18 attack 15,17 damage 1000=
+14,12 move 14,17
+14,17 attack 15,17 damage 400=15,17 dead=
+14,11 move 14,18
+14,18 attack 14,17 damage 700=
+14,17 attack 14,18 damage 400=
+15,18 skill=
+15,18 attack 14,18 damage 1000=
+14,18 attack 14,17 damage 700=14,17 dead=
+14,18 move 7,18
+15,18 move 8,18
+8,18 attack 7,18 damage 1000=
+7,18 move 8,12
+8,18 move 8,13
+8,13 attack 8,12 damage 1000=
+8,12 attack 8,13 damage 700=8,13 dead=exit

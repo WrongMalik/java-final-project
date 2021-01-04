@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.ServerController">
+   <children>
+      <AnchorPane fx:id="HLWPane" prefHeight="750.0" prefWidth="200.0" style="-fx-background-color: efede1;">
+         <children>
+            <ProgressIndicator fx:id="HLWIndicator" layoutX="65.0" layoutY="313.0" prefHeight="70.0" prefWidth="71.0" />
+            <Label fx:id="HLWWaitLabel" alignment="CENTER" layoutX="56.0" layoutY="390.0" text="等待玩家加入" />
+            <Label layoutX="48.0" layoutY="33.0" text="葫芦娃">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="HLWIPLabel" alignment="CENTER" layoutX="1.0" layoutY="424.0" prefHeight="20.0" prefWidth="200.0" text="Label" visible="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="HLWimage" fitHeight="120.0" fitWidth="180.0" layoutX="12.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../image/HLW.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="YGPane" layoutX="950.0" prefHeight="750.0" prefWidth="200.0" style="-fx-background-color: efede1;">
+         <children>
+            <ProgressIndicator fx:id="YGIndicator" layoutX="65.0" layoutY="313.0" prefHeight="70.0" prefWidth="71.0" />
+            <Label fx:id="YGWaitLabel" alignment="CENTER" layoutX="56.0" layoutY="390.0" text="等待玩家加入" />
+            <Label layoutX="46.0" layoutY="33.0" text="妖    怪">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="YGIPLabel" alignment="CENTER" layoutX="1.0" layoutY="423.0" prefHeight="20.0" prefWidth="200.0" text="Label" visible="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="YGimage" fitHeight="120.0" fitWidth="180.0" layoutX="11.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../image/YG.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <GridPane fx:id="mapPane" layoutX="200.0" prefHeight="750.0" prefWidth="750.0" style="-fx-background-image: url(image/map.png); -fx-background-repeat: no-repeat; -fx-background-size: 100% 100%;">
+         <children>
+            <ImageView fx:id="hlw1" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="18">
+               <image>
+                  <Image url="@../image/hlw1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hlw2" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="17">
+               <image>
+                  <Image url="@../image/hlw2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hlw4" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="16">
+               <image>
+                  <Image url="@../image/hlw4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hlw6" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="15">
+               <image>
+                  <Image url="@../image/hlw6.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hlw3" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="19">
+               <image>
+                  <Image url="@../image/hlw3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hlw5" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="19">
+               <image>
+                  <Image url="@../image/hlw5.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hlw7" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="19">
+               <image>
+                  <Image url="@../image/hlw7.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="19" GridPane.rowIndex="0" fx:id="xiezijing">
+               <image>
+                  <Image url="@../image/xiezijing.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shejing" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../image/shejing.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="1" fx:id="xiaoyao1">
+               <image>
+                  <Image url="@../image/xiaoyao.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="2" fx:id="xiaoyao2">
+               <image>
+                  <Image url="@../image/xiaoyao.png" />
+               </image>
+            </ImageView>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Label fx:id="ipLabel" alignment="CENTER" layoutX="401.0" layoutY="759.0" prefHeight="20.0" prefWidth="349.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

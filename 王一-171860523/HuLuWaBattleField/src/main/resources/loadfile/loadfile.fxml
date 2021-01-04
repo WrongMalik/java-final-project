@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loadfile.LoadFileController">
+    <children>
+        <GridPane fx:id="mapPane" prefHeight="750.0" prefWidth="750.0" style="-fx-background-image: url(image/map.png); -fx-background-repeat: no-repeat; -fx-background-size: 100% 100%;">
+            <children>
+                <ImageView fx:id="hlw1" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="18">
+                    <image>
+                        <Image url="@../image/hlw1.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="hlw2" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="17">
+                    <image>
+                        <Image url="@../image/hlw2.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="hlw4" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="16">
+                    <image>
+                        <Image url="@../image/hlw4.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="hlw6" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="15">
+                    <image>
+                        <Image url="@../image/hlw6.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="hlw3" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="19">
+                    <image>
+                        <Image url="@../image/hlw3.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="hlw5" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="19">
+                    <image>
+                        <Image url="@../image/hlw5.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="hlw7" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="19">
+                    <image>
+                        <Image url="@../image/hlw7.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="19" GridPane.rowIndex="0" fx:id="xiezijing">
+                    <image>
+                        <Image url="@../image/xiezijing.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="shejing" fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="1">
+                    <image>
+                        <Image url="@../image/shejing.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="17" GridPane.rowIndex="1" fx:id="xiaoyao1">
+                    <image>
+                        <Image url="@../image/xiaoyao.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="37.5" fitWidth="37.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="18" GridPane.rowIndex="2" fx:id="xiaoyao2">
+                    <image>
+                        <Image url="@../image/xiaoyao.png" />
+                    </image>
+                </ImageView>
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+      <Button fx:id="beginButton" layoutX="173.0" layoutY="756.0" mnemonicParsing="false" text="Begin" />
+      <Button fx:id="nextButton" layoutX="345.0" layoutY="756.0" mnemonicParsing="false" text="Next" />
+    </children>
+</AnchorPane>
